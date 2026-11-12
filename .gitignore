@@ -1,0 +1,26 @@
+
+# Large datasets
+dataset/
+preprocessed_data/
+DarkID_Dataset/
+
+# Reports database
+*.sqlite
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+Metric,Value
+Total Documents,774109.0
+Minimum Characters,1.0
+Maximum Characters,943947.0
+Mean Characters,15822.39
+Median Characters,21214.0
+25th Percentile Characters,4521.0
+75th Percentile Characters,21361.0
+95th Percentile Characters,21645.0
+Minimum Words,1.0
+Maximum Words,233452.0
+Mean Words,2900.05
+Median Words,3829.0
+25th Percentile Words,889.0
+75th Percentile Words,3950.0
+95th Percentile Words,4133.0

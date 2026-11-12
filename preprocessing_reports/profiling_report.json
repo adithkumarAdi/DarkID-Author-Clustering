@@ -1,0 +1,34 @@
+{
+    "project": "DarkID",
+    "stage": "Dataset Profiling",
+    "label_column_used": false,
+    "profiling_summary": [
+        {
+            "split": "train",
+            "rows": 204,
+            "columns": 2,
+            "missing_text1": 0,
+            "missing_text2": 0,
+            "empty_text1": 0,
+            "empty_text2": 0
+        },
+        {
+            "split": "validation",
+            "rows": 412,
+            "columns": 2,
+            "missing_text1": 0,
+            "missing_text2": 0,
+            "empty_text1": 0,
+            "empty_text2": 0
+        },
+        {
+            "split": "test",
+            "rows": 412,
+            "columns": 2,
+            "missing_text1": 0,
+            "missing_text2": 0,
+            "empty_text1": 0,
+            "empty_text2": 0
+        }
+    ]
+}

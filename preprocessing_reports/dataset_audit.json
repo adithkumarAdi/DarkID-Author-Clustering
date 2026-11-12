@@ -1,0 +1,1622 @@
+[
+    {
+        "file": "arxiv_test.csv",
+        "status": "OK",
+        "rows": 106,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 60,
+                "0": 46
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 106,
+                "empty_texts": 0,
+                "min_length": 82,
+                "max_length": 1940,
+                "total_characters": 87196,
+                "average_length": 822.6
+            },
+            "text2": {
+                "non_missing_texts": 106,
+                "empty_texts": 0,
+                "min_length": 87,
+                "max_length": 1829,
+                "total_characters": 78434,
+                "average_length": 739.94
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "arxiv_train.csv",
+        "status": "OK",
+        "rows": 492,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 254,
+                "1": 238
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 492,
+                "empty_texts": 0,
+                "min_length": 25,
+                "max_length": 1909,
+                "total_characters": 387163,
+                "average_length": 786.92
+            },
+            "text2": {
+                "non_missing_texts": 492,
+                "empty_texts": 0,
+                "min_length": 91,
+                "max_length": 1911,
+                "total_characters": 394533,
+                "average_length": 801.9
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "arxiv_val.csv",
+        "status": "OK",
+        "rows": 106,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 54,
+                "0": 52
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 106,
+                "empty_texts": 0,
+                "min_length": 105,
+                "max_length": 1902,
+                "total_characters": 97786,
+                "average_length": 922.51
+            },
+            "text2": {
+                "non_missing_texts": 106,
+                "empty_texts": 0,
+                "min_length": 85,
+                "max_length": 1608,
+                "total_characters": 85767,
+                "average_length": 809.12
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "blogs_test.csv",
+        "status": "OK",
+        "rows": 8840,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 4438,
+                "1": 4402
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 8840,
+                "empty_texts": 0,
+                "min_length": 15,
+                "max_length": 298444,
+                "total_characters": 9729164,
+                "average_length": 1100.58
+            },
+            "text2": {
+                "non_missing_texts": 8840,
+                "empty_texts": 0,
+                "min_length": 14,
+                "max_length": 90285,
+                "total_characters": 9446074,
+                "average_length": 1068.56
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "blogs_train.csv",
+        "status": "OK",
+        "rows": 41251,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 20686,
+                "0": 20565
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 41251,
+                "empty_texts": 0,
+                "min_length": 13,
+                "max_length": 102760,
+                "total_characters": 45116929,
+                "average_length": 1093.72
+            },
+            "text2": {
+                "non_missing_texts": 41251,
+                "empty_texts": 0,
+                "min_length": 11,
+                "max_length": 56613,
+                "total_characters": 43856585,
+                "average_length": 1063.16
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "blogs_val.csv",
+        "status": "OK",
+        "rows": 8839,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 4462,
+                "1": 4377
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 8839,
+                "empty_texts": 0,
+                "min_length": 15,
+                "max_length": 734915,
+                "total_characters": 10443054,
+                "average_length": 1181.47
+            },
+            "text2": {
+                "non_missing_texts": 8839,
+                "empty_texts": 0,
+                "min_length": 12,
+                "max_length": 62626,
+                "total_characters": 9364347,
+                "average_length": 1059.44
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "british_test.csv",
+        "status": "OK",
+        "rows": 173,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 98,
+                "0": 75
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 173,
+                "empty_texts": 0,
+                "min_length": 3101,
+                "max_length": 61876,
+                "total_characters": 2573679,
+                "average_length": 14876.76
+            },
+            "text2": {
+                "non_missing_texts": 173,
+                "empty_texts": 0,
+                "min_length": 2542,
+                "max_length": 36463,
+                "total_characters": 2361198,
+                "average_length": 13648.54
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "british_train.csv",
+        "status": "OK",
+        "rows": 805,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 406,
+                "0": 399
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 805,
+                "empty_texts": 0,
+                "min_length": 2590,
+                "max_length": 82439,
+                "total_characters": 11947533,
+                "average_length": 14841.66
+            },
+            "text2": {
+                "non_missing_texts": 805,
+                "empty_texts": 0,
+                "min_length": 2962,
+                "max_length": 57172,
+                "total_characters": 11742702,
+                "average_length": 14587.21
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "british_val.csv",
+        "status": "OK",
+        "rows": 172,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 101,
+                "1": 71
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 172,
+                "empty_texts": 0,
+                "min_length": 3038,
+                "max_length": 70387,
+                "total_characters": 2556289,
+                "average_length": 14862.15
+            },
+            "text2": {
+                "non_missing_texts": 172,
+                "empty_texts": 0,
+                "min_length": 2759,
+                "max_length": 65342,
+                "total_characters": 2633564,
+                "average_length": 15311.42
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "darkreddit_test.csv",
+        "status": "OK",
+        "rows": 412,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 206,
+                "0": 206
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 412,
+                "empty_texts": 0,
+                "min_length": 610,
+                "max_length": 49312,
+                "total_characters": 1138916,
+                "average_length": 2764.36
+            },
+            "text2": {
+                "non_missing_texts": 412,
+                "empty_texts": 0,
+                "min_length": 636,
+                "max_length": 99003,
+                "total_characters": 1350619,
+                "average_length": 3278.2
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "darkreddit_train.csv",
+        "status": "OK",
+        "rows": 204,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 102,
+                "0": 102
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 204,
+                "empty_texts": 0,
+                "min_length": 670,
+                "max_length": 18638,
+                "total_characters": 568980,
+                "average_length": 2789.12
+            },
+            "text2": {
+                "non_missing_texts": 204,
+                "empty_texts": 0,
+                "min_length": 627,
+                "max_length": 19643,
+                "total_characters": 582754,
+                "average_length": 2856.64
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "darkreddit_val.csv",
+        "status": "OK",
+        "rows": 412,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 206,
+                "1": 206
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 412,
+                "empty_texts": 0,
+                "min_length": 620,
+                "max_length": 20543,
+                "total_characters": 1005130,
+                "average_length": 2439.64
+            },
+            "text2": {
+                "non_missing_texts": 412,
+                "empty_texts": 0,
+                "min_length": 654,
+                "max_length": 19715,
+                "total_characters": 980771,
+                "average_length": 2380.51
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "imdb_test.csv",
+        "status": "OK",
+        "rows": 4648,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 2334,
+                "1": 2314
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 4648,
+                "empty_texts": 0,
+                "min_length": 193,
+                "max_length": 8214,
+                "total_characters": 7709378,
+                "average_length": 1658.64
+            },
+            "text2": {
+                "non_missing_texts": 4648,
+                "empty_texts": 0,
+                "min_length": 197,
+                "max_length": 7292,
+                "total_characters": 7745836,
+                "average_length": 1666.49
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "imdb_train.csv",
+        "status": "OK",
+        "rows": 21687,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 10926,
+                "1": 10761
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 21687,
+                "empty_texts": 0,
+                "min_length": 81,
+                "max_length": 9896,
+                "total_characters": 36220707,
+                "average_length": 1670.16
+            },
+            "text2": {
+                "non_missing_texts": 21687,
+                "empty_texts": 0,
+                "min_length": 168,
+                "max_length": 10301,
+                "total_characters": 36085810,
+                "average_length": 1663.94
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "imdb_val.csv",
+        "status": "OK",
+        "rows": 4647,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 2416,
+                "0": 2231
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 4647,
+                "empty_texts": 0,
+                "min_length": 147,
+                "max_length": 8540,
+                "total_characters": 7800286,
+                "average_length": 1678.56
+            },
+            "text2": {
+                "non_missing_texts": 4647,
+                "empty_texts": 0,
+                "min_length": 197,
+                "max_length": 10056,
+                "total_characters": 7819590,
+                "average_length": 1682.72
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan11_test.csv",
+        "status": "OK",
+        "rows": 698,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 366,
+                "0": 332
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 698,
+                "empty_texts": 0,
+                "min_length": 15,
+                "max_length": 6071,
+                "total_characters": 173468,
+                "average_length": 248.52
+            },
+            "text2": {
+                "non_missing_texts": 698,
+                "empty_texts": 0,
+                "min_length": 16,
+                "max_length": 11424,
+                "total_characters": 211526,
+                "average_length": 303.05
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan11_train.csv",
+        "status": "OK",
+        "rows": 3255,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 1638,
+                "1": 1617
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 3255,
+                "empty_texts": 0,
+                "min_length": 4,
+                "max_length": 12320,
+                "total_characters": 871928,
+                "average_length": 267.87
+            },
+            "text2": {
+                "non_missing_texts": 3255,
+                "empty_texts": 0,
+                "min_length": 3,
+                "max_length": 131855,
+                "total_characters": 1052377,
+                "average_length": 323.31
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan11_val.csv",
+        "status": "OK",
+        "rows": 697,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 355,
+                "1": 342
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 697,
+                "empty_texts": 0,
+                "min_length": 4,
+                "max_length": 124527,
+                "total_characters": 303702,
+                "average_length": 435.73
+            },
+            "text2": {
+                "non_missing_texts": 697,
+                "empty_texts": 0,
+                "min_length": 6,
+                "max_length": 3665,
+                "total_characters": 185968,
+                "average_length": 266.81
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan13_test.csv",
+        "status": "OK",
+        "rows": 18,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 10,
+                "True": 8
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 18,
+                "empty_texts": 0,
+                "min_length": 3349,
+                "max_length": 13747,
+                "total_characters": 130682,
+                "average_length": 7260.11
+            },
+            "text2": {
+                "non_missing_texts": 18,
+                "empty_texts": 0,
+                "min_length": 1802,
+                "max_length": 13690,
+                "total_characters": 132497,
+                "average_length": 7360.94
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan13_train.csv",
+        "status": "OK",
+        "rows": 85,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 43,
+                "True": 42
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 85,
+                "empty_texts": 0,
+                "min_length": 2518,
+                "max_length": 15702,
+                "total_characters": 584791,
+                "average_length": 6879.89
+            },
+            "text2": {
+                "non_missing_texts": 85,
+                "empty_texts": 0,
+                "min_length": 2081,
+                "max_length": 18858,
+                "total_characters": 605672,
+                "average_length": 7125.55
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan13_val.csv",
+        "status": "OK",
+        "rows": 17,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "True": 9,
+                "False": 8
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 17,
+                "empty_texts": 0,
+                "min_length": 3615,
+                "max_length": 16630,
+                "total_characters": 128010,
+                "average_length": 7530.0
+            },
+            "text2": {
+                "non_missing_texts": 17,
+                "empty_texts": 0,
+                "min_length": 3659,
+                "max_length": 11163,
+                "total_characters": 132654,
+                "average_length": 7803.18
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan14_test.csv",
+        "status": "OK",
+        "rows": 400,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 200,
+                "True": 200
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 400,
+                "empty_texts": 0,
+                "min_length": 2772,
+                "max_length": 68220,
+                "total_characters": 6686859,
+                "average_length": 16717.15
+            },
+            "text2": {
+                "non_missing_texts": 400,
+                "empty_texts": 0,
+                "min_length": 2561,
+                "max_length": 148709,
+                "total_characters": 8819617,
+                "average_length": 22049.04
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan14_train.csv",
+        "status": "OK",
+        "rows": 300,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 150,
+                "True": 150
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 300,
+                "empty_texts": 0,
+                "min_length": 2561,
+                "max_length": 68220,
+                "total_characters": 3744999,
+                "average_length": 12483.33
+            },
+            "text2": {
+                "non_missing_texts": 300,
+                "empty_texts": 0,
+                "min_length": 3144,
+                "max_length": 148709,
+                "total_characters": 4811845,
+                "average_length": 16039.48
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan14_val.csv",
+        "status": "OK",
+        "rows": 200,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 100,
+                "True": 100
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 3130,
+                "max_length": 82747,
+                "total_characters": 3004237,
+                "average_length": 15021.18
+            },
+            "text2": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 2933,
+                "max_length": 24961,
+                "total_characters": 1449929,
+                "average_length": 7249.65
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan15_test.csv",
+        "status": "OK",
+        "rows": 200,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "True": 106,
+                "False": 94
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 421,
+                "max_length": 9317,
+                "total_characters": 684258,
+                "average_length": 3421.29
+            },
+            "text2": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 317,
+                "max_length": 14762,
+                "total_characters": 632313,
+                "average_length": 3161.57
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan15_train.csv",
+        "status": "OK",
+        "rows": 865,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "True": 433,
+                "False": 432
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 865,
+                "empty_texts": 0,
+                "min_length": 294,
+                "max_length": 24120,
+                "total_characters": 2918438,
+                "average_length": 3373.92
+            },
+            "text2": {
+                "non_missing_texts": 865,
+                "empty_texts": 0,
+                "min_length": 290,
+                "max_length": 13455,
+                "total_characters": 2411025,
+                "average_length": 2787.31
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan15_val.csv",
+        "status": "OK",
+        "rows": 200,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "False": 106,
+                "True": 94
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 358,
+                "max_length": 9907,
+                "total_characters": 714236,
+                "average_length": 3571.18
+            },
+            "text2": {
+                "non_missing_texts": 200,
+                "empty_texts": 0,
+                "min_length": 304,
+                "max_length": 7689,
+                "total_characters": 652833,
+                "average_length": 3264.16
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "bool"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan20_test.csv",
+        "status": "OK",
+        "rows": 13704,
+        "columns": [
+            "same",
+            "text1",
+            "text2"
+        ],
+        "missing_values": {
+            "same": 0,
+            "text1": 0,
+            "text2": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 6853,
+                "0": 6851
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 13704,
+                "empty_texts": 0,
+                "min_length": 20793,
+                "max_length": 123288,
+                "total_characters": 293513307,
+                "average_length": 21418.08
+            },
+            "text2": {
+                "non_missing_texts": 13704,
+                "empty_texts": 0,
+                "min_length": 20745,
+                "max_length": 138575,
+                "total_characters": 293275464,
+                "average_length": 21400.72
+            }
+        },
+        "dtypes": {
+            "same": "int64",
+            "text1": "str",
+            "text2": "str"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan20_train.csv",
+        "status": "OK",
+        "rows": 248001,
+        "columns": [
+            "same",
+            "text1",
+            "text2"
+        ],
+        "missing_values": {
+            "same": 0,
+            "text1": 0,
+            "text2": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 124000,
+                "0": 124001
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 248001,
+                "empty_texts": 0,
+                "min_length": 20709,
+                "max_length": 296887,
+                "total_characters": 5324801188,
+                "average_length": 21470.89
+            },
+            "text2": {
+                "non_missing_texts": 248001,
+                "empty_texts": 0,
+                "min_length": 20672,
+                "max_length": 296839,
+                "total_characters": 5326095666,
+                "average_length": 21476.11
+            }
+        },
+        "dtypes": {
+            "same": "int64",
+            "text1": "str",
+            "text2": "str"
+        },
+        "error": ""
+    },
+    {
+        "file": "pan20_val.csv",
+        "status": "OK",
+        "rows": 13703,
+        "columns": [
+            "same",
+            "text1",
+            "text2"
+        ],
+        "missing_values": {
+            "same": 0,
+            "text1": 0,
+            "text2": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 6852,
+                "0": 6851
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 13703,
+                "empty_texts": 0,
+                "min_length": 20761,
+                "max_length": 163948,
+                "total_characters": 294488123,
+                "average_length": 21490.78
+            },
+            "text2": {
+                "non_missing_texts": 13703,
+                "empty_texts": 0,
+                "min_length": 20696,
+                "max_length": 943947,
+                "total_characters": 295313861,
+                "average_length": 21551.04
+            }
+        },
+        "dtypes": {
+            "same": "int64",
+            "text1": "str",
+            "text2": "str"
+        },
+        "error": ""
+    },
+    {
+        "file": "reuters_test.csv",
+        "status": "OK",
+        "rows": 181,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 92,
+                "1": 89
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 181,
+                "empty_texts": 0,
+                "min_length": 470,
+                "max_length": 6738,
+                "total_characters": 497910,
+                "average_length": 2750.88
+            },
+            "text2": {
+                "non_missing_texts": 181,
+                "empty_texts": 0,
+                "min_length": 291,
+                "max_length": 5167,
+                "total_characters": 487376,
+                "average_length": 2692.69
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "reuters_train.csv",
+        "status": "OK",
+        "rows": 841,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 434,
+                "1": 407
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 841,
+                "empty_texts": 0,
+                "min_length": 350,
+                "max_length": 7634,
+                "total_characters": 2344032,
+                "average_length": 2787.2
+            },
+            "text2": {
+                "non_missing_texts": 841,
+                "empty_texts": 0,
+                "min_length": 419,
+                "max_length": 7012,
+                "total_characters": 2325745,
+                "average_length": 2765.45
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "reuters_val.csv",
+        "status": "OK",
+        "rows": 180,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 105,
+                "0": 75
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 180,
+                "empty_texts": 0,
+                "min_length": 489,
+                "max_length": 6168,
+                "total_characters": 507576,
+                "average_length": 2819.87
+            },
+            "text2": {
+                "non_missing_texts": 180,
+                "empty_texts": 0,
+                "min_length": 490,
+                "max_length": 5699,
+                "total_characters": 496532,
+                "average_length": 2758.51
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "victorian_test.csv",
+        "status": "OK",
+        "rows": 1608,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 817,
+                "1": 791
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 1608,
+                "empty_texts": 0,
+                "min_length": 2475,
+                "max_length": 5566,
+                "total_characters": 7910214,
+                "average_length": 4919.29
+            },
+            "text2": {
+                "non_missing_texts": 1608,
+                "empty_texts": 0,
+                "min_length": 2700,
+                "max_length": 5581,
+                "total_characters": 7903572,
+                "average_length": 4915.16
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "victorian_train.csv",
+        "status": "OK",
+        "rows": 7502,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "0": 3758,
+                "1": 3744
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 7502,
+                "empty_texts": 0,
+                "min_length": 2784,
+                "max_length": 5692,
+                "total_characters": 36963948,
+                "average_length": 4927.21
+            },
+            "text2": {
+                "non_missing_texts": 7502,
+                "empty_texts": 0,
+                "min_length": 2390,
+                "max_length": 5649,
+                "total_characters": 36914291,
+                "average_length": 4920.59
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    },
+    {
+        "file": "victorian_val.csv",
+        "status": "OK",
+        "rows": 1608,
+        "columns": [
+            "text1",
+            "text2",
+            "same"
+        ],
+        "missing_values": {
+            "text1": 0,
+            "text2": 0,
+            "same": 0
+        },
+        "label_distributions": {
+            "same": {
+                "1": 824,
+                "0": 784
+            }
+        },
+        "text_statistics": {
+            "text1": {
+                "non_missing_texts": 1608,
+                "empty_texts": 0,
+                "min_length": 2255,
+                "max_length": 5596,
+                "total_characters": 7922104,
+                "average_length": 4926.68
+            },
+            "text2": {
+                "non_missing_texts": 1608,
+                "empty_texts": 0,
+                "min_length": 2373,
+                "max_length": 5565,
+                "total_characters": 7918384,
+                "average_length": 4924.37
+            }
+        },
+        "dtypes": {
+            "text1": "str",
+            "text2": "str",
+            "same": "int64"
+        },
+        "error": ""
+    }
+]

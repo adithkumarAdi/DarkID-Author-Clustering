@@ -24,3 +24,10 @@ venv/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Derived quality-filtered corpus
+quality_filtered_data/
+
+# SQLite databases
+quality_filter_reports/*.sqlite
+quality_filter_reports/*.db

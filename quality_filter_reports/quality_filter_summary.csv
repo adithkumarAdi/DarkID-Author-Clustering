@@ -1,0 +1,8 @@
+metric,count
+input_documents,774109
+excluded_under_50_words,43656
+excluded_known_anomaly,1
+excluded_exact_duplicates,462687
+retained_documents,267765
+retained_short_text_flag,24434
+retained_100_plus,243331

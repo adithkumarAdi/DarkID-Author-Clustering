@@ -31,3 +31,10 @@ quality_filtered_data/
 # SQLite databases
 quality_filter_reports/*.sqlite
 quality_filter_reports/*.db
+
+char_ngram_features/
+char_ngram_metadata/
+fused_features/
+fused_metadata/
+stylometric_features/
+stage4_svd/

@@ -1,0 +1,28 @@
+FINAL MODEL SELECTION REPORT
+============================
+
+Selected configuration: 6D Stylometric Features + MiniBatchKMeans + K=5
+
+Evaluation experiments:
+1. Random Holdout
+2. Unseen Source
+
+Selection rationale:
+- K=5 achieved the strongest test silhouette score in both experiments.
+- K=5 demonstrated better source mixing than K=10 and K=20.
+- Increasing the number of clusters generally reduced silhouette scores.
+- K=5 provides a simpler clustering configuration than K=10 or K=20.
+
+Important limitations:
+- Cluster sizes are imbalanced, particularly in the unseen-source test.
+- Source mixing does not directly prove that documents belong to the
+  same author.
+- Intrinsic clustering metrics measure geometric separation, not
+  ground-truth authorship accuracy.
+- The project follows an unsupervised approach and does not use
+  pair labels to train the clustering models.
+
+Final decision:
+Retain the original 6D stylometric K=5 models for both evaluation
+experiments. Keep the enhanced 20D experiment as a separate
+experimental branch, not as the final selected model.

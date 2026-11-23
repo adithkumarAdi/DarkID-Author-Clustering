@@ -1,0 +1,16 @@
+{
+    "experiment": "random_holdout",
+    "algorithm": "MiniBatchKMeans",
+    "n_clusters": 5,
+    "n_features": 6,
+    "feature_names": [
+        "AuxiliaryVerbs_freq_per_100_words",
+        "Conjunctions_freq_per_100_words",
+        "Determiners_freq_per_100_words",
+        "Prepositions_freq_per_100_words",
+        "Pronouns_freq_per_100_words",
+        "Quantifiers_freq_per_100_words"
+    ],
+    "scaling": "StandardScaler",
+    "random_state": 42
+}

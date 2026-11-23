@@ -32,9 +32,26 @@ quality_filtered_data/
 quality_filter_reports/*.sqlite
 quality_filter_reports/*.db
 
+# Virtual Environments
+.venv/
+venv/
+.venv_gpu/
+
+# Large feature matrices
 char_ngram_features/
 char_ngram_metadata/
 fused_features/
 fused_metadata/
 stylometric_features/
-stage4_svd/
+
+# Ignore heavy stage4_svd training runs and large npz arrays
+# Whitelist only the final deployed models and cluster analysis CSVs for the webapp
+stage4_svd/*
+!stage4_svd/stylometric_only/
+stage4_svd/stylometric_only/*
+!stage4_svd/stylometric_only/final_model/
+!stage4_svd/stylometric_only/cluster_analysis/
+stage4_svd/stylometric_only/cluster_analysis/*
+!stage4_svd/stylometric_only/cluster_analysis/source_dominance/
+stage4_svd/stylometric_only/cluster_analysis/source_dominance/*
+!stage4_svd/stylometric_only/cluster_analysis/source_dominance/*k5_cluster_source_composition.csv

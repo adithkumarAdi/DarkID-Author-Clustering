@@ -1,0 +1,241 @@
+/* ==========================================================================
+   DarkID Cyber Research Dashboard Stylesheet
+   Theme: Deep Charcoal, Neon Purple, Cyan, & Glassmorphic Accents
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+    --bg-dark: #0A0D14;
+    --bg-card: #121622;
+    --bg-card-hover: #171D2B;
+    --border-subtle: #1E2536;
+    --border-glow: rgba(168, 85, 247, 0.35);
+    
+    --accent-purple: #A855F7;
+    --accent-purple-glow: rgba(168, 85, 247, 0.45);
+    --accent-cyan: #38BDF8;
+    --accent-cyan-glow: rgba(56, 189, 248, 0.35);
+    --accent-amber: #F59E0B;
+    
+    --text-primary: #F1F5F9;
+    --text-secondary: #94A3B8;
+    --text-muted: #64748B;
+}
+
+/* App Background */
+.stApp {
+    background-color: var(--bg-dark);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--text-primary);
+}
+
+/* Top Hero Header */
+.darkid-hero {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.15) 0%, rgba(15, 23, 42, 0.7) 50%, rgba(56, 189, 248, 0.08) 100%);
+    border: 1px solid var(--border-subtle);
+    border-radius: 16px;
+    padding: 24px 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.darkid-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(168, 85, 247, 0.25) 0%, rgba(0,0,0,0) 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.darkid-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    background: linear-gradient(to right, #FFFFFF, #C084FC, #38BDF8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.darkid-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+/* Metric Cards */
+.darkid-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 14px;
+    padding: 20px;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+
+.darkid-card:hover {
+    border-color: var(--border-glow);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(168, 85, 247, 0.15);
+}
+
+.darkid-card-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.darkid-card-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.darkid-card-subtitle {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin-top: 6px;
+}
+
+/* Glow Pill Badges */
+.pill-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.pill-purple {
+    background: rgba(168, 85, 247, 0.15);
+    border: 1px solid rgba(168, 85, 247, 0.4);
+    color: #C084FC;
+}
+
+.pill-cyan {
+    background: rgba(56, 189, 248, 0.15);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    color: #38BDF8;
+}
+
+.pill-amber {
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid rgba(245, 158, 11, 0.4);
+    color: #FBBF24;
+}
+
+/* Disclaimer Banner */
+.disclaimer-banner {
+    background: rgba(18, 22, 34, 0.8);
+    border-left: 4px solid var(--accent-purple);
+    border-top: 1px solid var(--border-subtle);
+    border-right: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+    border-radius: 0 10px 10px 0;
+    padding: 14px 18px;
+    margin: 18px 0;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.disclaimer-title {
+    font-weight: 600;
+    color: #C084FC;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Button Customization */
+.stButton>button {
+    background: linear-gradient(135deg, #7C3AED 0%, #9333EA 100%) !important;
+    color: #FFFFFF !important;
+    border: 1px solid rgba(168, 85, 247, 0.5) !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+    font-size: 0.92rem !important;
+    padding: 10px 22px !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35) !important;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #6D28D9 0%, #7E22CE 100%) !important;
+    border-color: #C084FC !important;
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.55) !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Form Controls & Inputs */
+.stTextArea textarea {
+    background-color: var(--bg-card) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: 10px !important;
+    color: var(--text-primary) !important;
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 0.88rem !important;
+}
+
+.stTextArea textarea:focus {
+    border-color: var(--accent-purple) !important;
+    box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.25) !important;
+}
+
+.stSelectbox div[data-baseweb="select"] {
+    background-color: var(--bg-card) !important;
+    border-color: var(--border-subtle) !important;
+    border-radius: 8px !important;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background-color: #0E121B;
+    padding: 6px;
+    border-radius: 12px;
+    border: 1px solid var(--border-subtle);
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px !important;
+    padding: 8px 18px !important;
+    color: var(--text-secondary) !important;
+    font-weight: 500 !important;
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1E2536 !important;
+    color: #F8FAFC !important;
+    font-weight: 600 !important;
+    border: 1px solid rgba(168, 85, 247, 0.3) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Dataframe & Tables */
+.stDataFrame {
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
